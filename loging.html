@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign & Login</title>
+    <link rel="stylesheet" href="loging.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="btn-container">
+                <button id="signup-btn" class="toggle-btn">Sign Up</button>
+                <button id="login-btn" class="toggle-btn">Login</button>
+            </div>
+            
+            <form id="signup-form" class="form">
+                <h2>Create Account</h2>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            
+            <form id="login-form" class="form hidden">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="loging.js"></script>
+</body>
+</html>
